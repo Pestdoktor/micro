@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/zyedidia/micro/cmd/micro/shellwords"
+	"github.com/Pestdoktor/micro/cmd/micro/shellwords"
 )
 
 const TermEmuSupported = true

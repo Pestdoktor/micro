@@ -21,12 +21,12 @@ parts:
     plugin: nil
     build-packages: [make]
     prepare: |
-      mkdir -p ../go/src/github.com/zyedidia/micro
-      cp -R . ../go/src/github.com/zyedidia/micro
+      mkdir -p ../go/src/github.com/Pestdoktor/micro
+      cp -R . ../go/src/github.com/Pestdoktor/micro
     build: |
       export GOPATH=$(pwd)/../go
       export GOBIN=$(pwd)/../go/bin
-      cd ../go/src/github.com/zyedidia/micro
+      cd ../go/src/github.com/Pestdoktor/micro
       make install
     install: |
       mkdir $SNAPCRAFT_PART_INSTALL/bin

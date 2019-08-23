@@ -1,10 +1,10 @@
 # ![Micro](./assets/logo.png)
 
-[![Build Status](https://travis-ci.org/zyedidia/micro.svg?branch=master)](https://travis-ci.org/zyedidia/micro)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zyedidia/micro)](https://goreportcard.com/report/github.com/zyedidia/micro)
-[![Join the chat at https://gitter.im/zyedidia/micro](https://badges.gitter.im/zyedidia/micro.svg)](https://gitter.im/zyedidia/micro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zyedidia/micro/blob/master/LICENSE)
-[![Snap Status](https://build.snapcraft.io/badge/zyedidia/micro.svg)](https://build.snapcraft.io/user/zyedidia/micro)
+[![Build Status](https://travis-ci.org/Pestdoktor/micro.svg?branch=master)](https://travis-ci.org/zyedidia/micro)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Pestdoktor/micro)](https://goreportcard.com/report/github.com/zyedidia/micro)
+[![Join the chat at https://gitter.im/Pestdoktor/micro](https://badges.gitter.im/zyedidia/micro.svg)](https://gitter.im/zyedidia/micro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Pestdoktor/micro/blob/master/LICENSE)
+[![Snap Status](https://build.snapcraft.io/badge/Pestdoktor/micro.svg)](https://build.snapcraft.io/user/zyedidia/micro)
 
 Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities
 of modern terminals. It comes as one single, batteries-included, static binary with no dependencies, and you can download and use it right now.
@@ -67,19 +67,19 @@ You can also check out the website for Micro at https://micro-editor.github.io.
 * Macros
 * Common editor things such as undo/redo, line numbers, Unicode support, softwrap...
 
-Although not yet implemented, I hope to add more features such as autocompletion ([#174](https://github.com/zyedidia/micro/issues/174)) or a tree view ([#249](https://github.com/zyedidia/micro/issues/249)) in the future.
+Although not yet implemented, I hope to add more features such as autocompletion ([#174](https://github.com/Pestdoktor/micro/issues/174)) or a tree view ([#249](https://github.com/zyedidia/micro/issues/249)) in the future.
 
 # Installation
 
-To install micro, you can download a [prebuilt binary](https://github.com/zyedidia/micro/releases), or you can build it from source.
+To install micro, you can download a [prebuilt binary](https://github.com/Pestdoktor/micro/releases), or you can build it from source.
 
-If you want more information about ways to install micro, see this [wiki page](https://github.com/zyedidia/micro/wiki/Installing-Micro).
+If you want more information about ways to install micro, see this [wiki page](https://github.com/Pestdoktor/micro/wiki/Installing-Micro).
 
 ### Prebuilt binaries
 
 All you need to install micro is one file, the binary itself. It's as simple as that!
 
-Download the binary from the [releases](https://github.com/zyedidia/micro/releases) page.
+Download the binary from the [releases](https://github.com/Pestdoktor/micro/releases) page.
 
 On that page you'll see the nightly release, which contains binaries for micro which are built every night,
 and you'll see all the stable releases with the corresponding binaries.
@@ -137,8 +137,8 @@ If your operating system does not have a binary release, but does run Go, you ca
 Make sure that you have Go version 1.5 or greater (Go 1.4 will work if your version supports CGO) and that your `GOPATH` env variable is set (I recommend setting it to `~/go` if you don't have one).
 
 ```
-go get -d github.com/zyedidia/micro/cmd/micro
-cd $GOPATH/src/github.com/zyedidia/micro
+go get -d github.com/Pestdoktor/micro/cmd/micro
+cd $GOPATH/src/github.com/Pestdoktor/micro
 make install
 ```
 
@@ -146,7 +146,7 @@ The binary will then be installed to `$GOPATH/bin` (or your `$GOBIN`).
 
 Please make sure that when you are working with micro's code, you are working on your `GOPATH`.
 
-You can install directly with `go get` (`go get -u github.com/zyedidia/micro/cmd/micro`) but this isn't recommended because it doesn't build micro with version information which is useful for the plugin manager.
+You can install directly with `go get` (`go get -u github.com/Pestdoktor/micro/cmd/micro`) but this isn't recommended because it doesn't build micro with version information which is useful for the plugin manager.
 
 ### MacOS terminal
 
@@ -205,21 +205,21 @@ click to enable line selection.
 Micro has a built-in help system which you can access by pressing `Ctrl-E` and typing `help`. Additionally, you can
 view the help files here:
 
-* [main help](https://github.com/zyedidia/micro/tree/master/runtime/help/help.md)
-* [keybindings](https://github.com/zyedidia/micro/tree/master/runtime/help/keybindings.md)
-* [commands](https://github.com/zyedidia/micro/tree/master/runtime/help/commands.md)
-* [colors](https://github.com/zyedidia/micro/tree/master/runtime/help/colors.md)
-* [options](https://github.com/zyedidia/micro/tree/master/runtime/help/options.md)
-* [plugins](https://github.com/zyedidia/micro/tree/master/runtime/help/plugins.md)
+* [main help](https://github.com/Pestdoktor/micro/tree/master/runtime/help/help.md)
+* [keybindings](https://github.com/Pestdoktor/micro/tree/master/runtime/help/keybindings.md)
+* [commands](https://github.com/Pestdoktor/micro/tree/master/runtime/help/commands.md)
+* [colors](https://github.com/Pestdoktor/micro/tree/master/runtime/help/colors.md)
+* [options](https://github.com/Pestdoktor/micro/tree/master/runtime/help/options.md)
+* [plugins](https://github.com/Pestdoktor/micro/tree/master/runtime/help/plugins.md)
 
-I also recommend reading the [tutorial](https://github.com/zyedidia/micro/tree/master/runtime/help/tutorial.md) for
+I also recommend reading the [tutorial](https://github.com/Pestdoktor/micro/tree/master/runtime/help/tutorial.md) for
 a brief introduction to the more powerful configuration features micro offers.
 
 # Contributing
 
 If you find any bugs, please report them! I am also happy to accept pull requests from anyone.
 
-You can use the [GitHub issue tracker](https://github.com/zyedidia/micro/issues)
+You can use the [GitHub issue tracker](https://github.com/Pestdoktor/micro/issues)
 to report bugs, ask questions, or suggest new features.
 
-For a more informal setting to discuss the editor, you can join the [Gitter chat](https://gitter.im/zyedidia/micro).
+For a more informal setting to discuss the editor, you can join the [Gitter chat](https://gitter.im/Pestdoktor/micro).

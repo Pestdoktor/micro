@@ -71,7 +71,7 @@ just for fun than for serious use. (Though feel free if you want!)
 
 Micro's colorschemes are also extremely simple to create. The default ones can
 be found
-[here](https://github.com/zyedidia/micro/tree/master/runtime/colorschemes).
+[here](https://github.com/Pestdoktor/micro/tree/master/runtime/colorschemes).
 
 They are only about 18-30 lines in total.
 

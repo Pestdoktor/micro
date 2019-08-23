@@ -25,9 +25,9 @@
 [submodule "cmd/micro/vendor/golang.org/x/net"]
 	path = cmd/micro/vendor/golang.org/x/net
 	url = https://go.googlesource.com/net
-[submodule "cmd/micro/vendor/github.com/zyedidia/clipboard"]
-	path = cmd/micro/vendor/github.com/zyedidia/clipboard
-	url = https://github.com/zyedidia/clipboard
+[submodule "cmd/micro/vendor/github.com/Pestdoktor/clipboard"]
+	path = cmd/micro/vendor/github.com/Pestdoktor/clipboard
+	url = https://github.com/Pestdoktor/clipboard
 [submodule "cmd/micro/vendor/github.com/zyedidia/glob"]
 	path = cmd/micro/vendor/github.com/zyedidia/glob
 	url = https://github.com/zyedidia/glob

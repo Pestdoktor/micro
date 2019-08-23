@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zyedidia/clipboard"
+	"github.com/Pestdoktor/clipboard"
 	"github.com/zyedidia/tcell"
 	"github.com/zyedidia/terminal"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/zyedidia/clipboard"
+	"github.com/Pestdoktor/clipboard"
 )
 
 // The Cursor struct stores the location of the cursor in the view

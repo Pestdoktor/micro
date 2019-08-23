@@ -10,8 +10,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/yuin/gopher-lua"
-	"github.com/zyedidia/clipboard"
-	"github.com/zyedidia/micro/cmd/micro/shellwords"
+	"github.com/Pestdoktor/clipboard"
+	"github.com/Pestdoktor/micro/cmd/micro/shellwords"
 	"github.com/zyedidia/tcell"
 )
 

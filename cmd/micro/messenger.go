@@ -9,8 +9,8 @@ import (
 	"strconv"
 
 	"github.com/mattn/go-runewidth"
-	"github.com/zyedidia/clipboard"
-	"github.com/zyedidia/micro/cmd/micro/shellwords"
+	"github.com/Pestdoktor/clipboard"
+	"github.com/Pestdoktor/micro/cmd/micro/shellwords"
 	"github.com/zyedidia/tcell"
 )
 
